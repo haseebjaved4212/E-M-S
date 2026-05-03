@@ -1,10 +1,12 @@
 import Navbar from "./components/navbar/Navbar";
-
+import Footer from "./components/footer/Footer";
 
 const App = () => {
   return (
     <>
-    <Navbar/>
+    <Navbar/> 
+    <div>This is Main App</div>
+    <Footer/>
     </>
   )
 }
